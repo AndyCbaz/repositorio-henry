@@ -1,0 +1,45 @@
+BUCLE FOR
+Dentro del lenguaje de programación de JavaScript y dentro de muchos otros lenguajes
+existen los llamados bucles o ciclos que permiten a una determinada accion repetirse
+de manera indefinida o hasta que el usuario lo desee.
+Uno de estos bucles es conocido como FOR y funciona mediante la utilizacion de 3 apar-
+tados: 
+* Declaración de una variable
+* Expresión condicional 
+* Condicion de incremento
+
+En el primer apartado se debe inicializar una variable que el bucle ocupara como punto 
+de partida y comparativa.
+En el segundo apartado de la sintaxis existe una condicion que constantemente el bucle
+estará examinando y mientras se cumpla dicha condicion seguira funcionando.
+En el tercer apartado existe la condicion de incremento que permite a la variable ini-
+cializada cambiar su valor en cada iteración del bucle cumpliendo dicha condicion: ++
+
+OPERADORES LOGICOS
+Dentro de la logica boleana existen algunos operadores que permiten trabajar de dife-
+rente manera con los estados de TRUE y FALSE. Tales como:
+
+*AND (&&)    Funciona de la siguiente manera:
+
+        val1      val2       &&
+            V      V         V
+            F      V         F
+            V      F         F
+            F      F         F
+
+*OR  (||)    Funciona de la siguiente manera:
+
+        val1      val2       ||
+            V      V         V
+            F      V         V
+            V      F         V
+            F      F         F
+
+*NOT (!)    Funciona de la siguiente manera:
+
+        val1             !
+            V            F
+            F            V
+
+            
+

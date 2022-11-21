@@ -1,6 +1,12 @@
-var nombre = 'Juan';
-var otroNombre = "Pepe";
-var numero = 123
-
-const pi = 3.1416;
-
+function matriz(n,m){
+    var j=0;
+    var i=0;
+    while(i<n){
+        while(j<m){
+            console.log(i + ' ' + j);
+            j++;
+        }
+        j=0;
+        i++;
+    }
+}
